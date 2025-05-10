@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register - Shoe Store</title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Shop Our Collection</h1>
+        <nav align="center">
+            <a href="index.html">Home</a> |
+            <a href="shop.html">Shop</a> |
+            <a href="categories.html">Categories</a> |
+            <a href="deals.html">Deals</a> |
+            <a href="blog.html">Blog</a> |
+            <a href="about.html">About Us</a> |
+            <a href="faq.html">FAQ</a> |
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">🔑 Login/Register</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <hr>
+
+    <table align="center" border="1" cellpadding="20" cellspacing="0">
+        <tr>
+            <td align="center">
+                <h2>Login</h2>
+                <form action="login_process.php" method="post"></form>
+                    Email: <input type="email" name="email" required><br><br>
+                    Password: <input type="password" name="password" required><br><br>
+                    <input type="submit" value="Login">
+                </form>
+                <h3>Don't have an account? Register below:</h3>
+                <h2>Register</h2>
+                <form action="register_process.php" method="post"></form>
+                    Name: <input type="text" name="name" required><br><br>
+                    Email: <input type="email" name="email" required><br><br>
+                    Password: <input type="password" name="password" required><br><br>
+                    Confirm Password: <input type="password" name="confirm_password" required><br><br>
+                    <input type="submit" value="Register">
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <p align="center">&copy; 2025 Shoe Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
